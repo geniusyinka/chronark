@@ -6,6 +6,10 @@ const nextConfig = {
 	experimental: {
 		mdxRs: true,
 	},
+	env: {
+		UPSTASH_REDIS_REST_URL: process.env.NEXT_PUBLIC_UPSTASH_REDIS_REST_URL,
+		UPSTASH_REDIS_REST_TOKEN: process.env.NEXT_PUBLIC_UPSTASH_REDIS_REST_TOKEN,
+	  },
 };
 
 export default withContentlayer(nextConfig);

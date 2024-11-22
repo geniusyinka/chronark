@@ -1,6 +1,7 @@
 import type { Project } from "@/.contentlayer/generated";
 import Link from "next/link";
 import { Eye, View } from "lucide-react";
+export const runtime = 'edge';
 
 type Props = {
 	project: Project;

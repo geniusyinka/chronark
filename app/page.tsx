@@ -1,6 +1,8 @@
 import Link from "next/link";
 import React from "react";
 import Particles from "./components/particles";
+export const runtime = 'edge';
+
 
 const navigation = [
   { name: "Projects", href: "/projects" },
